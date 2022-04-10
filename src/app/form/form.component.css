@@ -1,0 +1,55 @@
+fa-icon{
+    color: var(--main);
+    font-size: 1.8rem;
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: .13rem solid var(--main);
+    padding: .5rem 1rem 0 .3rem;
+} 
+::placeholder{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--main);
+}
+textarea{
+    outline: none;
+    background-color:transparent;
+    border: .1rem solid var(--main);
+    width: 70%;
+    border-radius: .3rem;
+}
+.text-area{
+    display: flex;
+    gap: .5rem;
+}
+input[type=date]{
+    background: transparent;
+    border: none;
+    border-bottom: .13rem solid var(--main);
+    padding: .5rem 1rem 0 .3rem;
+    color: var(--main);
+    font-size: 1.4rem;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  font-size: 1.4rem;
+  color: red;
+  
+}
+form{
+    padding:3rem;
+}
+.icon{
+    color: #ff5421;
+}
+.btn{
+    font-size: 1.4rem;
+    padding: .2rem 1.2rem;
+    border-radius: .5rem;
+    border: .1rem solid #2DC67C;
+    background-color: #2DC67C;
+    color: white;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}

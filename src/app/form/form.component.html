@@ -1,0 +1,23 @@
+<form >
+    <h1>Add Quote</h1>
+    <hr>
+    <div>
+        <fa-icon class="icon" [icon]="faUser"></fa-icon>
+        <input type="text" placeholder="Your name">
+    </div>
+    <div class="text-area">
+        <fa-icon class="icon" [icon]="faQuote"></fa-icon>
+        <textarea cols="30" rows="10">Your quote</textarea>
+    </div>
+    <div>
+        <fa-icon class="icon" [icon]="faUser"></fa-icon>
+        <input type="text" placeholder="Author">
+    </div>
+    <div>
+        <fa-icon class="icon" [icon]="faTime"></fa-icon>
+        <input type="date" >
+    
+    </div>
+    <button class="btn" (click)="onClick()" type="submit" >Post</button>
+
+</form>
