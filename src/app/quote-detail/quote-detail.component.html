@@ -1,0 +1,18 @@
+<div class="wholeQuote">
+   <h3>{{ quote.quote }}</h3>
+   <div class="middleSection">
+        <p> <a>Author:</a>{{ quote.author }}</p>
+        <p> <a>Publisher:</a>{{ quote.publisher }}</p>
+        <p> <a>Upvotes:</a>{{ quote.upvotes}}</p>
+        <p> <a>Downvotes:</a>{{ quote.downvotes }}</p>
+        <p> <a>Time elapsed:</a>{{ '2days' }}</p>
+   </div>
+   <div class="interactions">
+        <div class="one" (click)="upvote()"><fa-icon [icon]="up"></fa-icon> Upvote</div>
+        <div class="one"(click)="downvote()"><fa-icon [icon]="down"></fa-icon> Downvote</div>
+        <div class="deleting" (click)="deleteWhole()"><fa-icon [icon]="deleting"></fa-icon> Delete</div>
+   </div>
+   
+   
+
+</div>

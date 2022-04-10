@@ -1,0 +1,20 @@
+.interactions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.middleSection{
+    margin-left: 10rem;
+
+}
+.middleSection a{
+    color: #FDB806;
+}
+.one{
+    color:#00FF19;
+    cursor: pointer;
+}
+.deleting {
+    color: red;
+    cursor: pointer;
+}
